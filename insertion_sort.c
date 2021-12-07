@@ -8,12 +8,6 @@ void print_array(int arr[], int size){
     printf("\n");
 }
 
-void swap(int *x, int *y){
-    int tmp = *x;
-    *x = *y;
-    *y = tmp;
-}
-
 void insertion_sort(int arr[], int size){
     int i, j, key;
     for(i=1; i<size; i++){
